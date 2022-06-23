@@ -7,7 +7,8 @@ from .models import Post
 
 class PostListView (ListView):
     model = Post
-    template_name = 'post_list.html'
+    template_name = 'blog/post_list.html'
+    
 
 
 class PostCreateView (CreateView):
